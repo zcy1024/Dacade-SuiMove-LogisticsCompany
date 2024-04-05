@@ -211,7 +211,7 @@ sui client call --package $PACKAGE_ID --module company --function create_item --
 export TRANSPORTITEM999=0x642ca54a8ffe7ec411a412e400baadeb57d253504d375075b211790a17c9e183
 ```
 
-### 5.3 refunds
+### 5.4 refunds
 
 - **run command**
 
@@ -278,7 +278,7 @@ sui client gas
 # 100 is a refund
 ```
 
-### 5.4 confirm_receipt
+### 5.5 confirm_receipt
 
 - **run command**
 
@@ -310,7 +310,7 @@ sui client gas
 ╰──────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-### 5.5 cash
+### 5.6 cash
 
 - **run command**
 
@@ -425,7 +425,7 @@ sui client object $COMPANY
 
 all_profit is 1000, package publisher earns 10, company owner earns 990, so when you run `sui client gas`, you will find them.
 
-### 5.6 destroy company
+### 5.7 destroy company
 
 - **run command**
 
